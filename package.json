@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "scripts": {
+    "postinstall": "bsb -make-world",
+    "start:re": "bsb -make-world -w",
+    "start:snowpack": "snowpack dev",
+    "start": "run-p start:**",
+    "build:re": "bsb -clean-world -make-world",
+    "build:snowpack": "snowpack build",
+    "build": "run-s build:**",
+    "test": "echo \"This template does not include a test runner by default.\" && exit 1"
+  },
+  "resolutions": {
+    "react": "0.0.0-experimental-27659559e",
+    "react-dom": "0.0.0-experimental-27659559e"
+  },
+  "dependencies": {
+    "@rescript/react": "^0.10.1",
+    "bs-platform": "^8.4.2",
+    "react": "experimental",
+    "react-dom": "experimental",
+    "web-vitals": "^1.1.0"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-react-refresh": "^2.4.0",
+    "npm-run-all": "^4.1.5",
+    "snowpack": "^3.0.1"
+  }
+}
