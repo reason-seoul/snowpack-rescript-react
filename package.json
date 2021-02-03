@@ -1,5 +1,12 @@
 {
-  "private": true,
+  "name": "snowpack-rescript-react",
+  "version": "0.0.2",
+  "keywords": [
+    "csa-template",
+    "snowpack",
+    "rescript",
+    "react"
+  ],
   "scripts": {
     "postinstall": "bsb -make-world",
     "start:re": "bsb -make-world -w",
@@ -18,8 +25,7 @@
     "@rescript/react": "^0.10.1",
     "bs-platform": "^8.4.2",
     "react": "experimental",
-    "react-dom": "experimental",
-    "web-vitals": "^1.1.0"
+    "react-dom": "experimental"
   },
   "devDependencies": {
     "@snowpack/plugin-react-refresh": "^2.4.0",
