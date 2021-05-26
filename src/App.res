@@ -1,6 +1,6 @@
 %%raw(`import './App.css';`)
 
-@bs.module("./logo.svg") external logo: string = "default"
+@module("./logo.svg") external logo: string = "default"
 
 @react.component
 let make = () => {
@@ -21,7 +21,8 @@ let make = () => {
         className="App-link"
         href="https://rescript-lang.org/docs/react/latest/introduction"
         target="_blank"
-        rel="noopener noreferrer">
+        rel="noopener noreferrer"
+      >
         {React.string("Learn ReScript React")}
       </a>
     </header>

@@ -6,5 +6,5 @@
 *.bs.js
 
 node_modules/
-lib/
-build/
+/lib/
+/build/

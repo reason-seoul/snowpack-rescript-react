@@ -3,6 +3,7 @@
   "reason": {
     "react-jsx": 3
   },
+  "refmt": 3,
   "suffix": ".bs.js",
   "sources": {
     "dir" : "src",
@@ -19,9 +20,9 @@
     }
   ],
   "bs-dependencies": [
-    "@rescript/react"
+    "@rescript/react",
+    "bs-webapi"
   ],
   "bs-dev-dependencies": [
-  ],
-  "refmt": 3
+  ]
 }
